@@ -1,0 +1,715 @@
+body {
+	font-family: "Inter";
+}
+
+.homePage {
+	background-image: url('assets/images/wall2.jpg');
+}
+
+.navbar {
+	background-color: white;
+	opacity: 0.7;
+}
+
+.navbar-brand {
+	font-size:28px; 
+	color: black;
+}
+
+.navbar li a{
+	color: black;
+}
+
+.navbar li:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.carousel {
+	width: 100%;
+}
+
+.carousel-inner {
+	margin-top: 81px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.carousel-inner img {
+	width: 100%;
+}
+
+.container {
+	/* margin-top: 35px;
+	border: 1px black solid; */
+	padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+	flex: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column-md {
+	width: 95%;
+	padding: 10px;
+}
+
+.column-md img:hover {
+	opacity: 60%;
+	cursor: pointer;
+}
+
+.column-sm {
+	padding: 10px;
+}
+
+.column-sm img:hover {
+	opacity: 60%;
+	cursor: pointer;
+}
+
+.homePage .category .card {
+	border: 1px solid peachpuff;
+}
+
+/* Product */
+.productPage {
+	background-image: url('assets/images/wall2.jpg');
+}
+
+.productPage .card {
+	background-color: peachpuff; 
+	width: 90%; 
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+.productPage .left {
+	width: 17%;
+	margin-top: 96px;
+	margin-left: 25px;
+}
+
+.productPage .right {
+	width: 80%;
+	padding: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .productPage .right {
+	width: 75%;
+	padding: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .productPage .right {
+	width: 75%;
+	padding: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .productPage .right {
+	width: 72%;
+	padding: 10px;
+  }
+}
+
+.logo img {
+	width: 90%;
+}
+
+.logo {
+	margin-bottom: 30px;
+	width: 90%;
+	border: 1px;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.logo img:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+.logo:hover {
+	cursor: pointer;
+	border: 1px solid salmon;
+}
+
+.productCard {
+	float:left; 
+	margin-top: 10px;
+}
+
+.productCard .card {
+	border-radius: 10px; 
+	background-color: transparent; 
+	width: 202px; 
+	margin-top: 0px;
+	border: 1px solid lightcoral;
+}
+
+.productCard .card img {
+	border-radius: 10px; 
+	cursor:pointer; 
+	width: 200px; 
+	height: 200px;
+}
+
+.productCard .card a {
+	font-size: 22px; 
+	text-decoration: none; 
+	cursor: pointer; 
+	text-align:center;
+	color: black;
+}
+
+.productCard .card img:hover {
+	opacity: 0.8;
+}
+
+.productCard .card a:hover {
+	color: lightyellow;
+}
+
+/*
+.tab {
+	padding: 5px;
+}
+
+.tab a {
+	font-size: 18px;
+}
+
+.tab a:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: pink;
+}
+*/
+
+/* Product Detail */
+.productDPage {
+	background-image: url('assets/images/wall2.jpg');
+}
+
+.productDPage .container {
+	margin-top: 100px;
+	text-align: center;
+	background-color: white;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.productDPage .container hr {
+	width: 95%
+}
+
+.productDPage .left {
+	width: 35%;
+	height: 35%;
+	margin: 20px;
+	margin-left: 40px;
+	margin-right: 0px;
+	border-radius: 15px;
+	border: 1px solid salmon;
+}
+
+.productDPage .left img {
+	border-radius: 15px;
+}
+
+.productDPage .right {
+	width: 55%;
+	margin: 20px;
+	text-align: left;
+}
+
+.productDPage table td {
+	width: 305px;
+}
+
+.productDPage .isiDesc {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.productDPage .isi {
+	text-align:right;
+	font-size: 14px;
+}
+
+.productDPage .btn {
+	float: right;
+	margin-top: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  .productDPage .left {
+	width: 35%;
+	height: 35%;
+	margin-left: 30px;
+  }
+  
+  .productDPage .right {
+	width: 54%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .productDPage .left {
+	width: 35%;
+	height: 35%;
+	margin-left: 20px;
+  }
+  
+  .productDPage .right {
+	width: 54%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .productDPage .left {
+	width: 90%;
+	height: 90%;
+	margin-left: 20px;
+  }
+  
+  .productDPage .right {
+	width: 100%;
+  }
+}
+
+.productDPage .row {
+	margin-bottom: 50px;
+}
+
+.anotherProduct {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.anotherProduct .card {
+	border-radius: 10px; 
+	background-color: darkcyan; 
+	width: 202px; 
+	margin-top: 0px;
+	border: 1px solid darkcyan;
+	
+}
+
+.anotherProduct .card img {
+	border-radius: 10px; 
+	cursor:pointer; 
+	width: 200px; 
+	height: 200px;
+}
+
+.anotherProduct .card a {
+	font-size: 22px; 
+	text-decoration: none; 
+	cursor: pointer; 
+	text-align:center;
+	color: white;
+}
+
+.anotherProduct .card img:hover {
+	opacity: 0.8;
+}
+
+.anotherProduct .card a:hover {
+	color: lightgrey;
+}
+
+/* Cart */
+.cartPage {
+	background-image: url('assets/images/wall2.jpg');
+}
+
+.cartPage .container {
+	margin-top: 100px;
+	background-color: white;
+}
+
+.cartPage .table {
+	margin-top: 20px;
+}
+
+input[type='number']{
+    width: 70px;
+} 
+
+.cartPage .opt {
+	width: 90px;
+}
+
+.cartPage .num {
+	width: 60px;
+}
+
+/* History */
+.historyPage {
+	background-image: url('assets/images/wall2.jpg');
+}
+
+.historyPage .container {
+	margin-top: 100px;
+	background-color: white;
+}
+
+.historyPage .table {
+	margin-top: 20px;
+}
+
+/* Admin */
+.adminPage {
+	background-image: url('assets/images/wall4.jpg');
+}
+
+.adminPage .container {
+	margin-top: 100px;
+	background-color: peachpuff;
+}
+
+.adminPage .table {
+	margin-top: 20px;
+}
+
+/* Footer */
+.footer {
+	border-radius: 0px;
+	margin: 0px;
+}
+
+.footer .card {
+	background: transparent;
+	margin: 0px;
+	border: none;
+}
+
+.footer .card img {
+	margin: 0px;
+}
+
+.footer .isiFooter {
+	background-color: #00442c;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+
+.footer hr {
+	border: 1px solid white;
+	width: 88%;
+}
+
+.footer .isiFooter img {
+	width: 90%;
+	border-radius: 10000px;
+	border: 2px solid black;
+}
+
+.ketFooter {
+	z-index: 2;
+	opacity: 0.8;
+	margin-top: 10px;
+	background-color: black;
+	color: white;
+}
+
+.footer .container {
+	width: 18%;
+	text-align: center;
+	position: center;
+	display: inline-block;
+	margin: 20px;
+	background-image: url('assets/images/wall.jpg');
+	color: black;
+}
+
+.footer .isiFooter .card {
+	margin: 20px;
+	margin-bottom: 50px;
+}
+
+.descFooter {
+	width: 50%;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: white;
+	color: black;
+}
+
+.logoFooter {
+	width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer .container {
+	width: 25%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer .container {
+	width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .footer .container {
+	width: 90%;
+  }
+}
+
+/* Login */
+.loginPage {
+	position: relative; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/images/bg-login2.jpg');
+    background-size: cover;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.loginPage::before {
+    content: "";
+    position: absolute;
+    height: 1000%;
+	width: 1000%;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.loginCard {
+	border: none;
+	border-radius: 20px;
+	opacity: 1;
+	position: center;
+	width: 35%;
+	text-align: center;
+	padding: 20px;
+	margin-top: 120px;
+	margin-bottom: 135px; 
+}
+
+.loginCard hr {
+	/* border: 1px solid black; */
+	margin-top: 0px;
+}
+
+.loginLabel {
+	font-size: 18px;
+	text-align: left;
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 33px;
+	padding-top: 10px;
+}
+
+.loginInput {
+	background-color: #FDE0E0;
+	border-radius: 8px;
+	border: none;
+	height: 30px;
+}
+
+.btnLogin {
+	opacity: 0.8;
+	/* margin-left: 200px; */
+	margin-top: 30px; 
+}
+
+.btnCancel {
+	margin-top: 30px;
+	opacity: 0.8;
+	margin-right: 20px;
+	color: white;
+}
+
+.caLogin {
+	/* position: relative;
+	left: -130px; */
+	font-size: 14px;
+	color: black;
+	font-weight: bold;
+	margin-left: 30px;
+	padding: 0px;
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 1220px) {
+  .loginCard {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .loginCard {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .loginCard {
+    width: 95%;
+  }
+}
+
+/* Register */
+.registerPage .wrapper {
+	position: absolute;
+    overflow: hidden;
+    width: 50%;
+    height: 100%; 
+    /* border: 1px solid black; */
+	border: none;
+	z-index: 2;
+}
+
+.registerPage .slide {
+	position: absolute;
+    left: -700px;
+    width: 100%;
+    height: 100%;
+    background: #594B81;
+	opacity: 1;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
+}
+
+.registerPage .slide .container {
+	color: white;
+}
+
+.registerPage .slide .container hr {
+	border: 1px solid white;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.gotoLogin {
+	color: yellow;
+}
+
+.gotoLogin:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.registerPage .container {
+	margin-top: 50px;
+	width: 85%;
+	/* border: 1px solid white; */
+}
+
+.registerPage input {
+	border-radius: 5px;
+	border: none;
+}
+
+.registerPage .container td {
+	padding: 10px;
+}
+
+.registerPage .container tr {
+	width: 100px;
+}
+
+@media screen and (max-width: 1220px) {
+  .registerPage .container {
+    width: 80%;
+  }
+  
+  .registerPage .wrapper {
+	width: 65%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .registerPage .container {
+    width: 90%;
+  }
+  
+  .registerPage .wrapper {
+	width: 87%;
+  }
+  
+  .registerKet {
+	display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .registerPage .container {
+    width: 100%;
+  }
+  
+  .registerPage .wrapper {
+	width: 100%;
+  }
+  
+  .registerKet {
+	display: none;
+  }
+}
+
+.registerKet {
+	/* border: 1px solid black; */
+	position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background: white;
+	text-align: center;
+	z-index: 1;
+}
+
+.registerKet img {
+	width: 400px;
+	border: none;
+	border-radius: 100%;
+	margin-top: 40px;
+}
+
+.logo-ig img {
+	width: 40px;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 8px;
+}
+
+.logo-ig img:hover {
+	cursor: pointer;
+	opacity: 0.7;
+}
